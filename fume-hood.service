@@ -1,0 +1,7 @@
+[Unit]
+Description=Toggle a fan based on tool state
+[Service]
+ExecStart=/usr/local/bin/fume-hood
+Type=simple
+[Install]
+WantedBy=multi-user.target

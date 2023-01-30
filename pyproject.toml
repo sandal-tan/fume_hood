@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fume-hood"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "fume_hood"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+gpiozero = "^1.6.2"
+logzero = "^1.7.0"
+pigpio = "^1.78"
+click = "^8.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
